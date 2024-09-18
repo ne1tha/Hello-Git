@@ -44,5 +44,73 @@
 
 [a]:https://www.baidu.com/
 
-![picture](地址)
+![picture](埃博拉.jpg)
 
+## 题二：数学公式
++ 正常
+$$
+n = p_1^{k_1} p_2^{k_2} \dots p_r^{k_r}
+$$
+
++ 修饰边框
+$$
+\boxed{n = p_1^{k_1} p_2^{k_2} \dots p_r^{k_r}}
+$$
+
++ 非独立
+$n = p_1^{k_1} p_2^{k_2} \dots p_r^{k_r}$
+
++ 特殊字符
+\#    \$    \& 
+
+\~   \_    \^ 
+
+\\   \{   \} 
+
+\% 
+
++ 希腊文
+$A$$\alpha$
+$B$$\beta$
+$\Gamma$	$\gamma$
+$\Delta$$\delta$
+$E$$\epsilon$
+$Z$$\zeta$
+$H$$\eta$
+$\Theta$	$\theta$
+$I$$\iota$
+$K$$\kappa$
+$\Lambda$$\lambda$
+$M$$\mu$
+$N$$\nu$
+$\Xi$	$\xi$
+
++ 上下标
+$x^{20}$
+$x_{20}$
+
++ 开方
+$\sqrt[a]{b}$
+
++ 分式
+$a+1 \over b+1$
+
++ 分段函数
+$$
+函数名=\begin{cases}  
+公式1 & 条件1 \\
+公式2 & 条件2 \\
+公式3 & 条件3 
+\end{cases}
+$$
+
++ 大型符号
+$\sum_0^\infty$
+$\int_{-\infty}^{\infty}$
+$\lim_{x\to0} \frac {sinx}x$
+
+## 题四
++ markdown是啥不说了，就是主打用符号化构建文档的一种语言呗
++ HTML 是使用各种标签（如\<html>、\<body>、\<p>、\<img>等）来构建网页的结构和内容，包括文本、图像、链接、表单等元素。 
++ 区别：看起来markdown对于内容的修饰比较好，而html比较复杂，对于结构和区分有利。
++ 后面没学正则，不会。
